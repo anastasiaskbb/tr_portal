@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Transport portal</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Avilon
+    Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+
+  
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1>
+          <a href="#intro" class="scrollto"><img src="img/logo_top.svg"> 
+            <svg _ngcontent-ftx-c5="" fill="none" height="22" viewBox="0 11 1 26" width="1" xmlns="http://www.w3.org/2000/svg"><line _ngcontent-ftx-c5="" opacity="0.288" stroke="#227dc4" x1="0.5" x2="0.499999" y1="2.18557e-08" y2="26"></line></svg> 
+            Транспорт24
+          </a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#intro"><img src="img/logo.png" alt="" title=""></a> -->
+      </div>
+
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Главная</a></li>
+          <li><a href="#about">О продукте</a></li>
+          <li><a href="#features">Функции</a></li>
+          <li><a href="#gallery">Галерея</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+ 
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Заявка на доступ к демо-версии</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="form-group">
+                          <label for="recipient-name" class="col-form-label">Email:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="form-group">
+                          <label for="message-text" class="col-form-label">Сообщение:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                  <button type="button" class="btn btn-primary">Отправить</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+
+    <div class="intro-text">
+      <h2>Автоматизация транспортной логистики</h2>
+      <p>Программа специально разработана для автоматизации и упрощения бизнес процессов</p>
+       <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#exampleModalCenter">
+         Демо версия
+       </button>
+    </div>
+
+    <div class="product-screens">
+
+      <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
+        <img src="img/product-screen-1.png" alt="">
+      </div>
+
+      <div class="product-screen-2 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.6s">
+        <img src="img/product-screen-2.png" alt="">
+      </div>
+
+      <div class="product-screen-3 wow fadeInUp" data-wow-duration="0.6s">
+        <img src="img/product-screen-3.png" alt="">
+      </div>
+
+    </div>
+
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about" class="section-bg">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">О продукте</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">
+            Транспорт24 — удобный и функциональный инструмент, способный мгновенно оптимизировать вашу логистику и значительно сократить время планирования.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 about-img wow fadeInLeft">
+            <img src="img/about-img.jpg" alt="">
+          </div>
+
+          <div class="col-lg-6 content wow fadeInRight">
+            
+            <h3></h3>
+            <p>
+              Портал транспортной логистики представляет собой информационную систему, c помощью которой грузоотправитель выбирает перевозчика по заданным в системе параметрам. Система позволяет проводить тендеры на лот из транспортировок с выбранным маршрутом и сроками поставки. Назначение заявки на транспортировку грузоперевозчику происходит несколькими способами: 
+            </p>
+          
+            <ul>
+              <li><i class="ion-android-checkmark-circle"></i> по тендеру, разыгранному ранее между грузоперевозчиками;</li>
+              <li><i class="ion-android-checkmark-circle"></i> по рейтингу грузоперевозчика, который формируется на основании истории выполнения транспортировок из выбранного пункта отгрузки;</li>
+              <li><i class="ion-android-checkmark-circle"></i>проведением аукциона среди грузоперевозчиков;</li>
+              <li><i class="ion-android-checkmark-circle"></i>вручную логистом грузоотправителя.</li>
+            </ul>
+            <p>
+              На портале предусмотрено выставление рекламаций к выполняемым транспортировкам. 
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Product Featuress Section
+    ============================-->
+    <section id="features">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-8 offset-lg-4">
+            <div class="section-header wow fadeIn" data-wow-duration="1s">
+              <h3 class="section-title">Функции</h3>
+              <span class="section-divider"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-5 features-img">
+            <img src="img/product-features.png" alt="" class="wow fadeInLeft">
+          </div>
+
+          <div class="col-lg-8 col-md-7 ">
+
+            <div class="row">
+
+              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+                
+                <h4 class="title"><a href="">Планирование маршрутов доставки</a></h4>
+                <ul>
+                  <li>
+                    
+                    Данные о дорожной сети и статистике пробок;
+                  </li>
+                  <li>
+                    
+                    Характеристики груза и автомобиля;
+                  </li>
+                  <li>
+                    Время прибытия и длительность разгрузки;
+                  </li>
+                </ul>
+                
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
+                
+                <h4 class="title"><a href="">Управление доставкой товаров</a></h4>
+                <ul>
+                  <li>
+                    
+                    Контроль местоположения водителей или курьеров;
+                  </li>
+                  <li>
+                    
+                    Контроль изменения статусов заданий;
+                  </li>
+                  <li>
+                    Контроль сданного или принятого груза и суммы продаж;
+                  </li>
+                  
+
+                </ul>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
+                
+                <h4 class="title"><a href="">Маршрутизация торговых представителей</a></h4>
+                <ul>
+                  <li>
+                    
+                    Сокращение издержек;
+                  </li>
+                  <li>
+                    
+                    Точное стратегическое планирование;
+                  </li>
+                  <li>
+                    Готовые маршруты торговых представителей;
+                  </li>
+                  
+
+                </ul>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
+                
+                <h4 class="title"><a href="">Мониторинг грузового транспорта</a></h4>
+                <ul>
+                  <li>
+                    
+                    Вычисление скорости в каждой точке;
+                  </li>
+                  <li>
+                    
+                    Вычисление пробега и длительности работы;
+                  </li>
+                  <li>
+                    Вычисление продолжительности стоянок;
+                  </li>
+                  
+
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- #features -->
+
+    <!--==========================
+      Product Advanced Featuress Section
+    ============================-->
+    <section id="advanced-features">
+
+      <div class="features-row section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img class="advanced-feature-img-right wow fadeInRight" src="img/advanced-feature-1.png" alt="">
+              <div class="wow fadeInLeft">
+                <h2>Маршруты за несколько секунд</h2>
+                <br>
+                <p>Зачастую многие компании вынуждены содержать целый штат логистов для того, чтобы вечером, когда все заказы приняты, можно было быстро распределить их по машинам.</p>
+                
+                <p>На планирование рейсов обычно отводится очень мало времени, т.к. на складе должны успеть собрать товары для этих заказов и загрузить в машины. При помощи веб-сервиса «Транспорт24» вы сможете получить готовые маршруты для каждой единицы транспорта уже через несколько секунд*</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features-row">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img class="advanced-feature-img-left" src="img/advanced-feature-2.png" alt="">
+              <div class="wow fadeInRight">
+                <h2>Умное распределение заказов по машинам</h2>
+                <br>
+                <p class="wow fadeInRight" data-wow-duration="0.5s">Интеллектуальный алгоритм автоматического планирования маршрутов доставки учитывает: совместимость груза в одном рейсе (например, нельзя в одном кузове одновременно перевозить замороженное и охлажденное мясо), совместимость груза и кузова (например, заморозку можно перевозить только в рефрижераторе), сопоставление габаритов кузова и габаритов груза, а так же другие ограничения, задаваемые пользователем.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features-row section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img class="advanced-feature-img-right wow fadeInRight" src="img/advanced-feature-3.png" alt="">
+              <div class="wow fadeInLeft">
+                <h2>Расписание маршрутов</h2>
+                <br>
+                <p>Результатом работы алгоритма автоматического планирования являются маршруты, полностью согласованные по временным окнам прибытия в каждый пункт погрузки/разгрузки.</p>
+                
+                <p> Расписание маршрутов рассчитывается с учетом пробочной статистики, поэтому полученный график движения является максимально приближенным к реальности.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- #advanced-features -->
+
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Оставьте заявку и пользуйтесь сервисом совершенно бесплатно 14 дней</h3>
+            
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <button type="button" class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#exampleModalCenter">
+              Демо версия
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
+
+    
+
+
+    <!--==========================
+    Gallery Section
+    ============================-->
+    
+    <section id="gallery">
+      <div class="container-fluid">
+          <div class="section-header">
+              <h3 class="section-title">Галерея</h3>
+              <span class="section-divider"></span>
+              <p class="section-description">Удобная работа со всеми запросами поступившими от заказчиков</p>
+          </div>
+
+          <div class="row no-gutters">
+
+              <div class="col-lg-4 col-md-6">
+                  <div class="gallery-item wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                      <a href="img/gallery/gallery-1.jpg" class="gallery-popup">
+                          <img src="img/gallery/gallery-1.jpg" alt="">
+                      </a>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                  <div class="gallery-item wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                      <a href="img/gallery/gallery-2.jpg" class="gallery-popup">
+                          <img src="img/gallery/gallery-2.jpg" alt="">
+                      </a>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                  <div class="gallery-item wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                      <a href="img/gallery/gallery-3.jpg" class="gallery-popup">
+                          <img src="img/gallery/gallery-3.jpg" alt="">
+                      </a>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                  <div class="gallery-item wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                      <a href="img/gallery/gallery-4.jpg" class="gallery-popup">
+                          <img src="img/gallery/gallery-4.jpg" alt="">
+                      </a>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                  <div class="gallery-item wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                      <a href="img/gallery/gallery-5.jpg" class="gallery-popup">
+                          <img src="img/gallery/gallery-5.jpg" alt="">
+                      </a>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                  <div class="gallery-item wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                      <a href="img/gallery/gallery-6.jpg" class="gallery-popup">
+                          <img src="img/gallery/gallery-6.jpg" alt="">
+                      </a>
+                  </div>
+              </div>
+
+          </div>
+
+      </div>
+  </section>
+  <!-- #gallery -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container">
+        <div class="row wow fadeInUp">
+
+          <div class="col-lg-4 col-md-4">
+            <div class="contact-about">
+              <h3>Транспорт24</h3>
+              
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+              <div>
+                <i class="ion-ios-location-outline"></i>
+                <p>A108 Adam Street<br>New York, NY 535022</p>
+              </div>
+
+              <div>
+                <i class="ion-ios-email-outline"></i>
+                <p>info@example.com</p>
+              </div>
+
+              <div>
+                <i class="ion-ios-telephone-outline"></i>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+            </div>
+          </div>
+
+          
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
